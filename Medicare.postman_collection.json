@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "6ad4ac6c-e37d-4ee5-b264-81e2b89c0552",
+		"name": "Medicare",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31715334",
+		"_collection_link": "https://lunar-satellite-537194.postman.co/workspace/PHASE3____~02f2c00c-80fc-4e01-a0cc-d6fb0308822d/collection/31715334-6ad4ac6c-e37d-4ee5-b264-81e2b89c0552?action=share&source=collection_link&creator=31715334"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 999,\r\n        \"image\": \"2.png\",\r\n        \"name\": \"Disprin+\",\r\n        \"category\": \"medicine\",\r\n        \"brand\": \"BZ Medico\",\r\n        \"status\": 0,\r\n        \"price\": 120\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9010/update-product-status",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9010",
+					"path": [
+						"update-product-status"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
