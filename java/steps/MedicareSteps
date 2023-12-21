@@ -1,0 +1,27 @@
+package steps;
+public class MedicareSteps{
+
+
+
+
+
+@Given("User Test API")
+public void user_test_api() {
+    
+}
+
+@When("Get REQUEST")
+public void get_request() {
+    
+}
+
+@Then("Validate")
+public void validate() {
+    
+}
+
+}
+
+
+
+
